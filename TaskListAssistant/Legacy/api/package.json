@@ -1,0 +1,17 @@
+{
+  "name": "legacy-task-api",
+  "version": "1.0.0",
+  "description": "Legacy Task Manager REST API (no AI) — system of record for the agentic demo",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  }
+}
