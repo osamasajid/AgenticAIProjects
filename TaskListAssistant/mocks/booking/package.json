@@ -1,0 +1,12 @@
+{
+  "name": "booking-mock",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Mock REST API for doctor/CPA appointment slots (json-server) — an external service the Booking MCP server calls.",
+  "scripts": {
+    "start": "json-server --host 127.0.0.1 --port 4100 db.json"
+  },
+  "devDependencies": {
+    "json-server": "0.17.4"
+  }
+}

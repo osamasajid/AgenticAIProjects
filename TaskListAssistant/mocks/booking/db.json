@@ -1,0 +1,60 @@
+{
+  "slots": [
+    {
+      "id": "d1",
+      "provider": "doctor",
+      "date": "2026-09-28",
+      "time": "09:00",
+      "available": true,
+      "bookedBy": null
+    },
+    {
+      "id": "d2",
+      "provider": "doctor",
+      "date": "2026-09-28",
+      "time": "10:30",
+      "available": true,
+      "bookedBy": null
+    },
+    {
+      "id": "d3",
+      "provider": "doctor",
+      "date": "2026-09-29",
+      "time": "14:00",
+      "available": true,
+      "bookedBy": null
+    },
+    {
+      "id": "d4",
+      "provider": "doctor",
+      "date": "2026-09-29",
+      "time": "16:00",
+      "available": false,
+      "bookedBy": "someone else"
+    },
+    {
+      "id": "c1",
+      "provider": "cpa",
+      "date": "2026-09-30",
+      "time": "11:00",
+      "available": true,
+      "bookedBy": null
+    },
+    {
+      "id": "c2",
+      "provider": "cpa",
+      "date": "2026-10-01",
+      "time": "15:00",
+      "available": true,
+      "bookedBy": null
+    },
+    {
+      "id": "c3",
+      "provider": "cpa",
+      "date": "2026-10-02",
+      "time": "13:00",
+      "available": true,
+      "bookedBy": null
+    }
+  ]
+}
